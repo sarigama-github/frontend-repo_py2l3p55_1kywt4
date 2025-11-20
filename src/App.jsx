@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import Slide from './components/Slide'
 import ImageCard from './components/ImageCard'
 import Equation from './components/Equation'
+import ExportButton from './components/ExportButton'
 
 const img = {
   eratosthenes: 'https://images.unsplash.com/photo-1520975922203-b1146a44a8b8?q=80&w=1600&auto=format&fit=crop',
@@ -19,6 +20,7 @@ const img = {
 function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white">
+      <ExportButton />
       {/* Slide 1 – Titre / Hero */}
       <Hero />
 
